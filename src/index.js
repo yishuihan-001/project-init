@@ -8,3 +8,6 @@ function merge () {
 }
 
 console.log(merge({a: 123}, {b: 456}));
+
+let name = 'slient'
+
