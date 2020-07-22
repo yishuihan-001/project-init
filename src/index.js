@@ -1,13 +1,15 @@
 function merge () {
-  var ret = {};
+  var ret = {}
   for (var i in arguments) {
-    var m = arguments[i];
-    for (var j in m) ret[j] = m[j];
+    var m = arguments[i]
+    for (var j in m) ret[j] = m[j]
   }
-  return ret;
+  return ret
 }
 
-console.log(merge({a: 123}, {b: 456}));
+console.log(merge({ a: 123 }, { b: 456 }))
 
-let name = 'slient'
+const name = 'slient'
+const age = 18
 
+console.log(name, age)
